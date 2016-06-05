@@ -1,0 +1,167 @@
+/*made by me*/
+
+@font-face {
+    font-family: kirvy;
+    src: url(../fonts/Kirvy.otf);
+}
+
+*{
+	font-family: kirvy;
+}
+
+.space-vsmall{
+	height: 10px;
+}
+.space-small{
+	height: 20px;
+}
+
+.space-medium{
+	height: 40px;
+}
+
+.space-large{
+	height: 60px;
+}
+.no-border{
+	border-radius: 0px;
+}
+.init{
+	background-color: #d2d6de;
+	min-height: 100vh;
+}
+.content1{
+	padding: 10px;
+}
+.box{
+	margin: 0 auto;
+	width: 35%;
+	height: 30vh;
+	background-color: white;
+	position: relative;
+	transform: translateY(100%);
+}
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.blue{
+	color: rgb(10,100,150);
+}
+.formed{
+
+}
+
+.userBox ul{
+	background-color: rgba(230,230,210,0.2);
+}
+.chatList li{
+	border: 1px solid rgba(230,230,210,0.3);
+	padding: 5px 10px 5px 10px;
+	outline: none;
+	list-style: none;
+	margin-left: -20px;
+	width: 100%;
+	background-color: rgba(230,230,210,0.1)
+}
+.chatList li:nth-child(odd){
+	background-color: rgba(230,230,210,0.2);
+}
+.userBox #input{
+	width: 95%;
+	float: right;
+margin: 10px 0px 10px 0px;
+}
+
+.myButton{
+	border: 1px rgba(230,230,210,0.9);
+	background-color: rgba(240,240,240,1);
+	padding: 10px 15px 10px 10px;
+	color: black;
+}
+.myButton-dark{
+	border: 1px rgba(230,230,210,0.9);
+	background-color: rgba(100,100,200,0.5);
+	padding: 10px 15px 10px 10px;
+	color: black
+}
+.myButton:hover,.myButton-dark:hover{
+	border: 1px rgba(230,230,210,0.8);
+	background-color: rgba(230,230,210,0.4);
+	transition: all 0.5s ease;
+	padding: 10px 15px 10px 10px;
+	color: rgba(100,100,110,1);
+}
+.auto{
+	margin-left: 25px;
+}
+
+.marge{
+	position: relative;
+	top:10px;
+	padding-left: 10px;
+}
+#calen .modal-dialog{
+	width: 95%;
+}
+.next,.prev{
+	display: none;
+}
+.wrapper-button{
+	text-align: center;
+}
+
+.green{
+	color: #006400;
+}
+button{
+	border-radius: 0px !important;
+}
+.button{
+	position: absolute;
+	top: 50%;
+}
+
+.imaged{
+	height: 150px !important;
+}
+
+.titles{
+	position: relative;
+	top:50px;
+}
+
+.center-1{
+	position:relative;left:38%;margin-right:-50%;
+}
+
+.large{
+	font-size: 1.2em;
+}
+
+.no-view{
+	display: none;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+@media only screen and (max-width: 500px) {
+	.box{
+		width: 100%;
+	}
+	#input1,#input2{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.titles{
+	position: relative;
+	top:-20px;
+}
+}
