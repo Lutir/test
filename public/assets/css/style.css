@@ -36,7 +36,7 @@
 .box{
 	margin: 0 auto;
 	width: 35%;
-	height: 30vh;
+	height: 35vh;
 	background-color: white;
 	position: relative;
 	transform: translateY(100%);
@@ -51,8 +51,9 @@
 .blue{
 	color: rgb(10,100,150);
 }
-.formed{
-
+.checks{
+	position: relative;
+	bottom: 8px;
 }
 
 .userBox ul{

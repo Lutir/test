@@ -32,11 +32,26 @@
                         <input type="password" name="" id="input2" class="form-control" value="" required="required" pattern="" title="" placeholder="Password..." >
                         <div class="space-vsmall"></div>
                     </div>
-
-                    <div class="wrapper-button">
-                        <button type="button" class="btn btn-primary no-border check">Submit</button>
+                        
+    
+                    
+                </div>
+                <div class="row center">                    
+                    <div class="col-md-3">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#" class="check" style="display:inline-block;"> <img src="{{URL::asset('assets/images/fb.png')}}" class="img-responsive" width="25px;" alt="Image"> </a>
+                        <button type="button" class="btn btn-primary no-border check checks" style="display:inline-block;">Submit</button>
+                        <a href="#" class="check" style="display:inline-block;"> <img src="{{URL::asset('assets/images/twitter.jpg')}}" class="img-responsive" width="25px;" alt="Image"> </a>
+                    </div>
+                    <div class="col-md-3">
+                        
                     </div>
                 </div>
+                <div class="wrapper-button">
+                        
+                    </div>
             </div>
         </div>
         <div class="modal fade" id="success">
